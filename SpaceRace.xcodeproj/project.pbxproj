@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B23A1455D9FE82424C12535 /* Pods_SpaceRaceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9580BBBC02CDD2BA6CC5145 /* Pods_SpaceRaceUITests.framework */; };
+		5C64B75720332AD000B65CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B75620332AD000B65CAF /* AppDelegate.swift */; };
+		5C64B75920332AD000B65CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B75820332AD000B65CAF /* ViewController.swift */; };
+		5C64B75C20332AD000B65CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C64B75A20332AD000B65CAF /* Main.storyboard */; };
+		5C64B75E20332AD000B65CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C64B75D20332AD000B65CAF /* Assets.xcassets */; };
+		5C64B76120332AD000B65CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C64B75F20332AD000B65CAF /* LaunchScreen.storyboard */; };
+		5C64B76C20332AD000B65CAF /* SpaceRaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B76B20332AD000B65CAF /* SpaceRaceTests.swift */; };
+		5C64B77720332AD000B65CAF /* SpaceRaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B77620332AD000B65CAF /* SpaceRaceUITests.swift */; };
+		5C64B7852033362500B65CAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C64B7842033362500B65CAF /* GoogleService-Info.plist */; };
+		5C64B7862033362500B65CAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C64B7842033362500B65CAF /* GoogleService-Info.plist */; };
+		5C64B7872033362500B65CAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C64B7842033362500B65CAF /* GoogleService-Info.plist */; };
+		5C64B78C20333A2500B65CAF /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B78A20333A2500B65CAF /* NewsModel.swift */; };
+		5C64B78D20333A2500B65CAF /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B78A20333A2500B65CAF /* NewsModel.swift */; };
+		5C64B78E20333A2500B65CAF /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B78A20333A2500B65CAF /* NewsModel.swift */; };
+		5C64B78F20333A2500B65CAF /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B78B20333A2500B65CAF /* ViewControllerTableViewCell.swift */; };
+		5C64B79020333A2500B65CAF /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B78B20333A2500B65CAF /* ViewControllerTableViewCell.swift */; };
+		5C64B79120333A2500B65CAF /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B78B20333A2500B65CAF /* ViewControllerTableViewCell.swift */; };
+		5C64B7952034319800B65CAF /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C64B7942034319800B65CAF /* ArticleViewController.swift */; };
+		5CCEBD6F2040736B009B5261 /* setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEBD6E2040736B009B5261 /* setup.swift */; };
+		701E563BE469776183D8CA0D /* Pods_SpaceRaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94085C77C065F0C86221D274 /* Pods_SpaceRaceTests.framework */; };
+		CBBF2CA7F17C99521C32064D /* Pods_SpaceRace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED64038E1419CC767CE2D8D /* Pods_SpaceRace.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C64B76820332AD000B65CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C64B74B20332AD000B65CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C64B75220332AD000B65CAF;
+			remoteInfo = SpaceRace;
+		};
+		5C64B77320332AD000B65CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C64B74B20332AD000B65CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C64B75220332AD000B65CAF;
+			remoteInfo = SpaceRace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0738CD4B6FCC1BCE448D97EC /* Pods-SpaceRaceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceRaceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceRaceUITests/Pods-SpaceRaceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0EE5C51395160F02C7D7313E /* Pods-SpaceRaceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceRaceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceRaceUITests/Pods-SpaceRaceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		118D3B8E495F348B941E32AF /* Pods-SpaceRace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceRace.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceRace/Pods-SpaceRace.release.xcconfig"; sourceTree = "<group>"; };
+		5C64B75320332AD000B65CAF /* SpaceRace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceRace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C64B75620332AD000B65CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C64B75820332AD000B65CAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C64B75B20332AD000B65CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C64B75D20332AD000B65CAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C64B76020332AD000B65CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C64B76220332AD000B65CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C64B76720332AD000B65CAF /* SpaceRaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceRaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C64B76B20332AD000B65CAF /* SpaceRaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceRaceTests.swift; sourceTree = "<group>"; };
+		5C64B76D20332AD000B65CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C64B77220332AD000B65CAF /* SpaceRaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceRaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C64B77620332AD000B65CAF /* SpaceRaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceRaceUITests.swift; sourceTree = "<group>"; };
+		5C64B77820332AD000B65CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C64B7842033362500B65CAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C64B78A20333A2500B65CAF /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		5C64B78B20333A2500B65CAF /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		5C64B7942034319800B65CAF /* ArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		5CCEBD6E2040736B009B5261 /* setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setup.swift; sourceTree = "<group>"; };
+		83B25D908F823FBA19824E8F /* Pods-SpaceRace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceRace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceRace/Pods-SpaceRace.debug.xcconfig"; sourceTree = "<group>"; };
+		94085C77C065F0C86221D274 /* Pods_SpaceRaceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceRaceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9655D0E386EB1A2D1D85E2BF /* Pods-SpaceRaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceRaceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceRaceTests/Pods-SpaceRaceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9580BBBC02CDD2BA6CC5145 /* Pods_SpaceRaceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceRaceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2BCEE01B21C603F65ED8A6 /* Pods-SpaceRaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceRaceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceRaceTests/Pods-SpaceRaceTests.release.xcconfig"; sourceTree = "<group>"; };
+		EED64038E1419CC767CE2D8D /* Pods_SpaceRace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceRace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C64B75020332AD000B65CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBF2CA7F17C99521C32064D /* Pods_SpaceRace.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C64B76420332AD000B65CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701E563BE469776183D8CA0D /* Pods_SpaceRaceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C64B76F20332AD000B65CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23A1455D9FE82424C12535 /* Pods_SpaceRaceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A643223B77E0469B672657A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83B25D908F823FBA19824E8F /* Pods-SpaceRace.debug.xcconfig */,
+				118D3B8E495F348B941E32AF /* Pods-SpaceRace.release.xcconfig */,
+				9655D0E386EB1A2D1D85E2BF /* Pods-SpaceRaceTests.debug.xcconfig */,
+				DF2BCEE01B21C603F65ED8A6 /* Pods-SpaceRaceTests.release.xcconfig */,
+				0EE5C51395160F02C7D7313E /* Pods-SpaceRaceUITests.debug.xcconfig */,
+				0738CD4B6FCC1BCE448D97EC /* Pods-SpaceRaceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C427C712039C08A0064E4C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C64B78A20333A2500B65CAF /* NewsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C64B74A20332AD000B65CAF = {
+			isa = PBXGroup;
+			children = (
+				5C64B75520332AD000B65CAF /* SpaceRace */,
+				5C64B76A20332AD000B65CAF /* SpaceRaceTests */,
+				5C64B77520332AD000B65CAF /* SpaceRaceUITests */,
+				5C64B75420332AD000B65CAF /* Products */,
+				2A643223B77E0469B672657A /* Pods */,
+				D240D298D00448B30158EBAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C64B75420332AD000B65CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C64B75320332AD000B65CAF /* SpaceRace.app */,
+				5C64B76720332AD000B65CAF /* SpaceRaceTests.xctest */,
+				5C64B77220332AD000B65CAF /* SpaceRaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C64B75520332AD000B65CAF /* SpaceRace */ = {
+			isa = PBXGroup;
+			children = (
+				5C64B75620332AD000B65CAF /* AppDelegate.swift */,
+				5CCEBD6E2040736B009B5261 /* setup.swift */,
+				5C427C712039C08A0064E4C1 /* Models */,
+				5CCEBD5D203FDCE8009B5261 /* Cells */,
+				5CCEBD5E203FDCF0009B5261 /* ViewControllers */,
+				5C64B75A20332AD000B65CAF /* Main.storyboard */,
+				5C64B75D20332AD000B65CAF /* Assets.xcassets */,
+				5C64B75F20332AD000B65CAF /* LaunchScreen.storyboard */,
+				5C64B76220332AD000B65CAF /* Info.plist */,
+				5C64B7842033362500B65CAF /* GoogleService-Info.plist */,
+			);
+			path = SpaceRace;
+			sourceTree = "<group>";
+		};
+		5C64B76A20332AD000B65CAF /* SpaceRaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C64B76B20332AD000B65CAF /* SpaceRaceTests.swift */,
+				5C64B76D20332AD000B65CAF /* Info.plist */,
+			);
+			path = SpaceRaceTests;
+			sourceTree = "<group>";
+		};
+		5C64B77520332AD000B65CAF /* SpaceRaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C64B77620332AD000B65CAF /* SpaceRaceUITests.swift */,
+				5C64B77820332AD000B65CAF /* Info.plist */,
+			);
+			path = SpaceRaceUITests;
+			sourceTree = "<group>";
+		};
+		5CCEBD5D203FDCE8009B5261 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5C64B78B20333A2500B65CAF /* ViewControllerTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5CCEBD5E203FDCF0009B5261 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C64B75820332AD000B65CAF /* ViewController.swift */,
+				5C64B7942034319800B65CAF /* ArticleViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D240D298D00448B30158EBAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EED64038E1419CC767CE2D8D /* Pods_SpaceRace.framework */,
+				94085C77C065F0C86221D274 /* Pods_SpaceRaceTests.framework */,
+				C9580BBBC02CDD2BA6CC5145 /* Pods_SpaceRaceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C64B75220332AD000B65CAF /* SpaceRace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C64B77B20332AD000B65CAF /* Build configuration list for PBXNativeTarget "SpaceRace" */;
+			buildPhases = (
+				C74704C249A809ED84459F94 /* [CP] Check Pods Manifest.lock */,
+				5C64B74F20332AD000B65CAF /* Sources */,
+				5C64B75020332AD000B65CAF /* Frameworks */,
+				5C64B75120332AD000B65CAF /* Resources */,
+				46B7682A6D219387E6FD0A77 /* [CP] Embed Pods Frameworks */,
+				3E535B51D5F0674EF495730A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceRace;
+			productName = SpaceRace;
+			productReference = 5C64B75320332AD000B65CAF /* SpaceRace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C64B76620332AD000B65CAF /* SpaceRaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C64B77E20332AD000B65CAF /* Build configuration list for PBXNativeTarget "SpaceRaceTests" */;
+			buildPhases = (
+				9975DF0ADDDFBDF7C69FF615 /* [CP] Check Pods Manifest.lock */,
+				5C64B76320332AD000B65CAF /* Sources */,
+				5C64B76420332AD000B65CAF /* Frameworks */,
+				5C64B76520332AD000B65CAF /* Resources */,
+				B524970256E64DF3BAD830CE /* [CP] Embed Pods Frameworks */,
+				4E0A06EDF80ED1DFC82E8ED3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C64B76920332AD000B65CAF /* PBXTargetDependency */,
+			);
+			name = SpaceRaceTests;
+			productName = SpaceRaceTests;
+			productReference = 5C64B76720332AD000B65CAF /* SpaceRaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C64B77120332AD000B65CAF /* SpaceRaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C64B78120332AD000B65CAF /* Build configuration list for PBXNativeTarget "SpaceRaceUITests" */;
+			buildPhases = (
+				A0716A37D6EF9D83058B4171 /* [CP] Check Pods Manifest.lock */,
+				5C64B76E20332AD000B65CAF /* Sources */,
+				5C64B76F20332AD000B65CAF /* Frameworks */,
+				5C64B77020332AD000B65CAF /* Resources */,
+				06CCCFCC0C7822833ED40CF1 /* [CP] Embed Pods Frameworks */,
+				588EE52CAF950366179DABC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C64B77420332AD000B65CAF /* PBXTargetDependency */,
+			);
+			name = SpaceRaceUITests;
+			productName = SpaceRaceUITests;
+			productReference = 5C64B77220332AD000B65CAF /* SpaceRaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C64B74B20332AD000B65CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AppsLab;
+				TargetAttributes = {
+					5C64B75220332AD000B65CAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5C64B76620332AD000B65CAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C64B75220332AD000B65CAF;
+					};
+					5C64B77120332AD000B65CAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C64B75220332AD000B65CAF;
+					};
+				};
+			};
+			buildConfigurationList = 5C64B74E20332AD000B65CAF /* Build configuration list for PBXProject "SpaceRace" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C64B74A20332AD000B65CAF;
+			productRefGroup = 5C64B75420332AD000B65CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C64B75220332AD000B65CAF /* SpaceRace */,
+				5C64B76620332AD000B65CAF /* SpaceRaceTests */,
+				5C64B77120332AD000B65CAF /* SpaceRaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C64B75120332AD000B65CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C64B76120332AD000B65CAF /* LaunchScreen.storyboard in Resources */,
+				5C64B7852033362500B65CAF /* GoogleService-Info.plist in Resources */,
+				5C64B75E20332AD000B65CAF /* Assets.xcassets in Resources */,
+				5C64B75C20332AD000B65CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C64B76520332AD000B65CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C64B7862033362500B65CAF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C64B77020332AD000B65CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C64B7872033362500B65CAF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06CCCFCC0C7822833ED40CF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceRaceUITests/Pods-SpaceRaceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E535B51D5F0674EF495730A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceRace/Pods-SpaceRace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46B7682A6D219387E6FD0A77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpaceRace/Pods-SpaceRace-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Atributika/Atributika.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Atributika.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParallaxHeader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceRace/Pods-SpaceRace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E0A06EDF80ED1DFC82E8ED3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceRaceTests/Pods-SpaceRaceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588EE52CAF950366179DABC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceRaceUITests/Pods-SpaceRaceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9975DF0ADDDFBDF7C69FF615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceRaceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0716A37D6EF9D83058B4171 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceRaceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B524970256E64DF3BAD830CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceRaceTests/Pods-SpaceRaceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74704C249A809ED84459F94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceRace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C64B74F20332AD000B65CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C64B75920332AD000B65CAF /* ViewController.swift in Sources */,
+				5C64B78C20333A2500B65CAF /* NewsModel.swift in Sources */,
+				5C64B7952034319800B65CAF /* ArticleViewController.swift in Sources */,
+				5C64B78F20333A2500B65CAF /* ViewControllerTableViewCell.swift in Sources */,
+				5C64B75720332AD000B65CAF /* AppDelegate.swift in Sources */,
+				5CCEBD6F2040736B009B5261 /* setup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C64B76320332AD000B65CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C64B78D20333A2500B65CAF /* NewsModel.swift in Sources */,
+				5C64B76C20332AD000B65CAF /* SpaceRaceTests.swift in Sources */,
+				5C64B79020333A2500B65CAF /* ViewControllerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C64B76E20332AD000B65CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C64B78E20333A2500B65CAF /* NewsModel.swift in Sources */,
+				5C64B77720332AD000B65CAF /* SpaceRaceUITests.swift in Sources */,
+				5C64B79120333A2500B65CAF /* ViewControllerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C64B76920332AD000B65CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C64B75220332AD000B65CAF /* SpaceRace */;
+			targetProxy = 5C64B76820332AD000B65CAF /* PBXContainerItemProxy */;
+		};
+		5C64B77420332AD000B65CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C64B75220332AD000B65CAF /* SpaceRace */;
+			targetProxy = 5C64B77320332AD000B65CAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C64B75A20332AD000B65CAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C64B75B20332AD000B65CAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C64B75F20332AD000B65CAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C64B76020332AD000B65CAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C64B77920332AD000B65CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C64B77A20332AD000B65CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C64B77C20332AD000B65CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B25D908F823FBA19824E8F /* Pods-SpaceRace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = SpaceRace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SpaceRace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C64B77D20332AD000B65CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118D3B8E495F348B941E32AF /* Pods-SpaceRace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = SpaceRace/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SpaceRace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C64B77F20332AD000B65CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9655D0E386EB1A2D1D85E2BF /* Pods-SpaceRaceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = SpaceRaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SpaceRaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceRace.app/SpaceRace";
+			};
+			name = Debug;
+		};
+		5C64B78020332AD000B65CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2BCEE01B21C603F65ED8A6 /* Pods-SpaceRaceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = SpaceRaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SpaceRaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceRace.app/SpaceRace";
+			};
+			name = Release;
+		};
+		5C64B78220332AD000B65CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE5C51395160F02C7D7313E /* Pods-SpaceRaceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = SpaceRaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SpaceRaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceRace;
+			};
+			name = Debug;
+		};
+		5C64B78320332AD000B65CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0738CD4B6FCC1BCE448D97EC /* Pods-SpaceRaceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K6ZTDFM48;
+				INFOPLIST_FILE = SpaceRaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppsLab.SpaceRaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpaceRace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C64B74E20332AD000B65CAF /* Build configuration list for PBXProject "SpaceRace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C64B77920332AD000B65CAF /* Debug */,
+				5C64B77A20332AD000B65CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C64B77B20332AD000B65CAF /* Build configuration list for PBXNativeTarget "SpaceRace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C64B77C20332AD000B65CAF /* Debug */,
+				5C64B77D20332AD000B65CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C64B77E20332AD000B65CAF /* Build configuration list for PBXNativeTarget "SpaceRaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C64B77F20332AD000B65CAF /* Debug */,
+				5C64B78020332AD000B65CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C64B78120332AD000B65CAF /* Build configuration list for PBXNativeTarget "SpaceRaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C64B78220332AD000B65CAF /* Debug */,
+				5C64B78320332AD000B65CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C64B74B20332AD000B65CAF /* Project object */;
+}
