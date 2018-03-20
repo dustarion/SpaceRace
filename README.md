@@ -46,7 +46,7 @@ Please also import the google.info.plist, from firebase.
 
 ## Authors
 
-* **Dalton Prescott** - *Main Developer* - [website](daltonprescott.com)
+* **Dalton Prescott** - *Main Developer* - [website](http://daltonprescott.com)
 
 ## Acknowledgments
 * Hat tip to anyone who's code was used
