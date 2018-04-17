@@ -11,7 +11,7 @@ Make sure you have pods installed. Run ``` $pod install ```
 
 Create a new file, setup.swift. Paste the following into the file. This is to keep my personal keys safe sorry.
 
-```
+```Swift
 import Foundation
 
 struct GlobalConstants {
@@ -26,7 +26,7 @@ struct GlobalConstants {
 
 If you want to use these values in other areas of the app, simply call the global constant as such :
 
-```
+```Swift
 let clientId = GlobalConstants.unsplashClientId
 print ("Your unsplash client ID is : ", clientId)
 ```
